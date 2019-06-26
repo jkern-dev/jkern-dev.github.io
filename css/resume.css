@@ -175,6 +175,53 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
+.project-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 950px;
+}
+
+.project-content img {
+  border: 2px solid #BD5D38;
+  border-radius: 1px;
+  width: 100%;
+  background-size: 100%;
+  margin-bottom: 15px;
+}
+
+.project-content-items {
+  margin-bottom: 20px;
+  margin-right: 5px;
+  max-width: 450px;
+}
+
+.resume {
+  background: #495057;
+  color: white;
+  height: 56px;
+  padding: 0px 20px;
+  border-radius: 20px;
+}
+
+.resume:hover {
+  background-color: #BD5D38;
+}
+
+.icon {
+  height: 80px;
+  margin-bottom: 27px;
+}
+
 .bg-primary {
   background-color: #BD5D38 !important;
 }
